@@ -7,7 +7,7 @@ import CodeDiffTool from './pages/CodeDiffTool';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/dev-util-site'>
       <div className='bg-gray-100 dark:bg-gray-900 dark:text-white'>
         <Routes>
           <Route path='/' element={<Home />} />
